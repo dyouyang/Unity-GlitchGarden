@@ -563,9 +563,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipForLevel:
   - {fileID: 0}
-  - {fileID: 8300000, guid: 6d49c7b67e9db1a4aa513f0e7a3328b8, type: 3}
+  - {fileID: 8300000, guid: 6b2999d54e6144528905bff1238893a2, type: 3}
   - {fileID: 0}
   - {fileID: 8300000, guid: ce56434df859e475ebf2cb970b554b91, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
 --- !u!4 &1464037322
