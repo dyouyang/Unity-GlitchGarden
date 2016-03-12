@@ -12,6 +12,9 @@ public class PanelFader : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         image = GetComponent<Image>();
+        
+        // Start with solid black
+        image.color = startColor;
 	}
 	
 	// Update is called once per frame
