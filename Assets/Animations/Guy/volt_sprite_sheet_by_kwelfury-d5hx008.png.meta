@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: fa9ddabe17fa5d04d987c1c5cfd7950e
+timeCreated: 1457839127
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: volt_sprite_sheet_by_kwelfury-d5hx008_0
+    21300002: volt_sprite_sheet_by_kwelfury-d5hx008_1
+    21300004: volt_sprite_sheet_by_kwelfury-d5hx008_2
+    21300006: volt_sprite_sheet_by_kwelfury-d5hx008_3
+    21300008: volt_sprite_sheet_by_kwelfury-d5hx008_4
+    21300010: volt_sprite_sheet_by_kwelfury-d5hx008_5
+    21300012: volt_sprite_sheet_by_kwelfury-d5hx008_6
+    21300014: volt_sprite_sheet_by_kwelfury-d5hx008_7
+    21300016: volt_sprite_sheet_by_kwelfury-d5hx008_8
+    21300018: volt_sprite_sheet_by_kwelfury-d5hx008_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: volt_sprite_sheet_by_kwelfury-d5hx008_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247.5
+        width: 180
+        height: 247.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 89, y: 57.5}
+        - {x: 64, y: 94.5}
+        - {x: -4, y: 94.5}
+        - {x: -49, y: 38.5}
+        - {x: -49, y: -69.5}
+        - {x: -47, y: -75.5}
+        - {x: -31, y: -90.5}
+        - {x: -23, y: -90.5}
+        - {x: -12, y: -85.5}
+        - {x: -14, y: -78.5}
+        - {x: 73, y: -56.5}
+        - {x: 89, y: -21.5}
+    - name: volt_sprite_sheet_by_kwelfury-d5hx008_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 247.5
+        width: 180
+        height: 247.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 76.5}
+        - {x: -11, y: 76.5}
+        - {x: -77, y: 20.5}
+        - {x: -81, y: -4.5}
+        - {x: -81, y: -104.5}
+        - {x: -79, y: -105.5}
+        - {x: 51, y: -105.5}
+        - {x: 70, y: -6.5}
+        - {x: 70, y: 45.5}
+        - {x: 36, y: 68.5}
+    - name: volt_sprite_sheet_by_kwelfury-d5hx008_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 247.5
+        width: 180
+        height: 247.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69, y: 35.5}
+        - {x: 39, y: 56.5}
+        - {x: 5, y: 64.5}
+        - {x: -11, y: 64.5}
+        - {x: -52, y: 16.5}
+        - {x: -70, y: -34.5}
+        - {x: -62, y: -45.5}
+        - {x: -46, y: -45.5}
+        - {x: -51, y: -54.5}
+        - {x: -72, y: -40.5}
+        - {x: -85, y: -56.5}
+        - {x: -85, y: -97.5}
+        - {x: -36, y: -112.5}
+        - {x: 56, y: -112.5}
+        - {x: 60, y: -103.5}
+        - {x: 61, y: -88.5}
+        - {x: 69, y: -40.5}
+    - name: volt_sprite_sheet_by_kwelfury-d5hx008_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 247.5
+        width: 180
+        height: 247.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 75.5}
+        - {x: -13, y: 75.5}
+        - {x: -41, y: 28.5}
+        - {x: -45, y: 6.5}
+        - {x: -57, y: -20.5}
+        - {x: -57, y: -39.5}
+        - {x: -47, y: -51.5}
+        - {x: -33, y: -47.5}
+        - {x: -28, y: -54.5}
+        - {x: -54, y: -53.5}
+        - {x: -57, y: -54.5}
+        - {x: -57, y: -66.5}
+        - {x: -53, y: -86.5}
+        - {x: -37, y: -83.5}
+        - {x: -35, y: -79.5}
+        - {x: -35, y: -75.5}
+        - {x: -26, y: -105.5}
+        - {x: -19, y: -117.5}
+        - {x: 11, y: -117.5}
+        - {x: 42, y: -81.5}
+        - {x: 73, y: 0.5}
+        - {x: 73, y: 49.5}
+        - {x: 42, y: 71.5}
+    - name: volt_sprite_sheet_by_kwelfury-d5hx008_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 247.5
+        width: 180
+        height: 247.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 65.5}
+        - {x: -17, y: 14.5}
+        - {x: -39, y: 30.5}
+        - {x: -73, y: 12.5}
+        - {x: -73, y: -113.5}
+        - {x: -71, y: -123.5}
+        - {x: -3, y: -123.5}
+        - {x: 6, y: -120.5}
+        - {x: 62, y: -35.5}
+        - {x: 62, y: 29.5}
+        - {x: 44, y: 65.5}
+    - name: volt_sprite_sheet_by_kwelfury-d5hx008_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 180
+        height: 247.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 103.5}
+        - {x: -50, y: 70.5}
+        - {x: -62, y: 34.5}
+        - {x: -62, y: -78.5}
+        - {x: 45, y: -78.5}
+        - {x: 74, y: -4.5}
+        - {x: 74, y: 63.5}
+        - {x: 54, y: 103.5}
+    - name: volt_sprite_sheet_by_kwelfury-d5hx008_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0.5
+        width: 180
+        height: 247.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 102.5}
+        - {x: -14, y: 102.5}
+        - {x: -70, y: 0.5}
+        - {x: -80, y: -21.5}
+        - {x: -82, y: -30.5}
+        - {x: -82, y: -56.5}
+        - {x: -66, y: -62.5}
+        - {x: -6, y: -83.5}
+        - {x: 32, y: -83.5}
+        - {x: 37, y: -77.5}
+        - {x: 73, y: -14.5}
+        - {x: 73, y: 70.5}
+    - name: volt_sprite_sheet_by_kwelfury-d5hx008_7
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0.5
+        width: 180
+        height: 247.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 93.5}
+        - {x: -72, y: 6.5}
+        - {x: -62, y: -3.5}
+        - {x: -48, y: -6.5}
+        - {x: -55, y: -10.5}
+        - {x: -64, y: -1.5}
+        - {x: -69, y: -1.5}
+        - {x: -76, y: -4.5}
+        - {x: -89, y: -14.5}
+        - {x: -89, y: -18.5}
+        - {x: -86, y: -32.5}
+        - {x: -45, y: -49.5}
+        - {x: 32, y: -80.5}
+        - {x: 50, y: -80.5}
+        - {x: 71, y: -72.5}
+        - {x: 71, y: 59.5}
+        - {x: 53, y: 93.5}
+    - name: volt_sprite_sheet_by_kwelfury-d5hx008_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0.5
+        width: 180
+        height: 247.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 98.5}
+        - {x: -50, y: 68.5}
+        - {x: -78, y: 6.5}
+        - {x: -78, y: -62.5}
+        - {x: -43, y: -93.5}
+        - {x: 28, y: -93.5}
+        - {x: 64, y: -11.5}
+        - {x: 64, y: 60.5}
+        - {x: 45, y: 98.5}
+    - name: volt_sprite_sheet_by_kwelfury-d5hx008_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0.5
+        width: 180
+        height: 247.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 102.5}
+        - {x: -14, y: 102.5}
+        - {x: -18, y: 100.5}
+        - {x: -48, y: 68.5}
+        - {x: -75, y: 38.5}
+        - {x: -75, y: -41.5}
+        - {x: -56, y: -85.5}
+        - {x: -1, y: -85.5}
+        - {x: 28, y: -68.5}
+        - {x: 63, y: 34.5}
+        - {x: 63, y: 71.5}
+        - {x: 32, y: 93.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
