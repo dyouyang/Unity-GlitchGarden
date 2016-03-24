@@ -8,7 +8,8 @@ public class Attacker : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+        Rigidbody2D rigidBody = gameObject.AddComponent<Rigidbody2D>();
+        rigidBody.isKinematic = true;
 	}
 	
 	// Update is called once per frame
@@ -17,4 +18,8 @@ public class Attacker : MonoBehaviour {
         transform.Translate(movementVector);
         //this.transform.position += movementVector;
 	}
+
+    void OnTriggerEnter2D() {
+        Debug.Log(name + " OnTriggerEnter2D");
+    }
 }

@@ -41,6 +41,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 467610}
   - 95: {fileID: 9598172}
+  - 61: {fileID: 6117230}
+  - 114: {fileID: 11480706}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -57,6 +59,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 454042}
   - 212: {fileID: 21234482}
+  - 50: {fileID: 5092750}
+  - 61: {fileID: 6187512}
   m_Layer: 0
   m_Name: Star
   m_TagString: Untagged
@@ -115,6 +119,51 @@ Transform:
   - {fileID: 401014}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!50 &5092750
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173640}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &6117230
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163586}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+--- !u!61 &6187512
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 173640}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.7500002, y: 0.72000027}
 --- !u!95 &9598172
 Animator:
   serializedVersion: 3
@@ -132,6 +181,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11480706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 163586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3cda906b7059f04b87b97fe33e9dde0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21208394
 SpriteRenderer:
   m_ObjectHideFlags: 1
