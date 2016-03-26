@@ -22,4 +22,11 @@ public class Attacker : MonoBehaviour {
     void OnTriggerEnter2D() {
         Debug.Log(name + " OnTriggerEnter2D");
     }
+    
+    /**
+    Change the walking speed, called from animation events.    
+    **/
+    public void setWalkSpeed (float newSpeed) {
+        walkSpeed = newSpeed;
+    }
 }
