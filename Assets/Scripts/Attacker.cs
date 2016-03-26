@@ -1,15 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
+[RequireComponent (typeof(Animator))]
 public class Attacker : MonoBehaviour {
 
     [Range (-2f, 2f)]
     public float walkSpeed;
+    private GameObject currentTarget;
 
-	// Use this for initialization
-	void Start () {
+    private Animator animator;
+
+    // Use this for initialization
+    void Start () {
         Rigidbody2D rigidBody = gameObject.AddComponent<Rigidbody2D>();
         rigidBody.isKinematic = true;
+
+        animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -22,7 +29,12 @@ public class Attacker : MonoBehaviour {
     void OnTriggerEnter2D() {
         Debug.Log(name + " OnTriggerEnter2D");
     }
-    
+
+    public void Attack(GameObject target) {
+        currentTarget = target;
+        animator.SetBool("isAttacking", true);
+    }
+
     /**
     Change the walking speed, called from animation events.    
     **/
@@ -30,7 +42,8 @@ public class Attacker : MonoBehaviour {
         walkSpeed = newSpeed;
     }
     
+    // Called from attack animation
     public void StrikeCurrentTarget(float damage) {
-        Debug.Log("Striking target for " + damage.ToString() + " damage");
+        Debug.Log(name + " striking " + currentTarget.name + " for " + damage.ToString() + " damage");
     }
 }
