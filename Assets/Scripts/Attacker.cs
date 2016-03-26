@@ -29,4 +29,8 @@ public class Attacker : MonoBehaviour {
     public void setWalkSpeed (float newSpeed) {
         walkSpeed = newSpeed;
     }
+    
+    public void StrikeCurrentTarget(float damage) {
+        Debug.Log("Striking target for " + damage.ToString() + " damage");
+    }
 }
