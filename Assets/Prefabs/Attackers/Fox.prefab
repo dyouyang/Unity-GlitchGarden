@@ -11,6 +11,7 @@ GameObject:
   - 95: {fileID: 9592944}
   - 114: {fileID: 11445162}
   - 61: {fileID: 6162236}
+  - 114: {fileID: 11417310}
   m_Layer: 0
   m_Name: Fox
   m_TagString: Untagged
@@ -90,6 +91,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11417310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 131886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb165649fa75d54c91674a1cda30551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11445162
 MonoBehaviour:
   m_ObjectHideFlags: 1
