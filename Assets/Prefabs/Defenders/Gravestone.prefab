@@ -12,6 +12,7 @@ GameObject:
   - 61: {fileID: 6114620}
   - 114: {fileID: 11478886}
   - 114: {fileID: 11474408}
+  - 114: {fileID: 11440036}
   m_Layer: 0
   m_Name: Gravestone
   m_TagString: Untagged
@@ -91,6 +92,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11440036
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a155feb535b1f24b94ed3179f2579a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 150
 --- !u!114 &11474408
 MonoBehaviour:
   m_ObjectHideFlags: 1

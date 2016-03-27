@@ -24,6 +24,11 @@ public class Attacker : MonoBehaviour {
         Vector3 movementVector = Vector3.left * walkSpeed * Time.deltaTime;
         transform.Translate(movementVector);
         //this.transform.position += movementVector;
+
+        // If our target died, resume moving.
+        if (currentTarget == null) {
+            animator.SetBool("isAttacking", false);
+        }
 	}
 
     void OnTriggerEnter2D() {
@@ -45,5 +50,7 @@ public class Attacker : MonoBehaviour {
     // Called from attack animation
     public void StrikeCurrentTarget(float damage) {
         Debug.Log(name + " striking " + currentTarget.name + " for " + damage.ToString() + " damage");
+        Health currentTargetHealth = currentTarget.GetComponent<Health>();
+        currentTargetHealth.takeDamageToHealth(damage);
     }
 }
