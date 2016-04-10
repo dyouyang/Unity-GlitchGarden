@@ -12,6 +12,7 @@ GameObject:
   - 61: {fileID: 6139688}
   - 114: {fileID: 11491058}
   - 114: {fileID: 11486702}
+  - 114: {fileID: 11422202}
   m_Layer: 0
   m_Name: Cactus
   m_TagString: Untagged
@@ -35,6 +36,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &176498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 441338}
+  m_Layer: 0
+  m_Name: Gun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &441338
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 484954}
+  m_RootOrder: 1
 --- !u!4 &470476
 Transform:
   m_ObjectHideFlags: 1
@@ -58,6 +86,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 470476}
+  - {fileID: 441338}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!61 &6139688
@@ -91,6 +120,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11422202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5019115d24f2646bdb4605b9391d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gun: {fileID: 176498}
+  axe: {fileID: 192780, guid: b865754532f73894c8a04632ec52b5b3, type: 2}
+  projectilesParent: {fileID: 0}
 --- !u!114 &11486702
 MonoBehaviour:
   m_ObjectHideFlags: 1
