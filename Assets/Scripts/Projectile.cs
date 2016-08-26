@@ -15,4 +15,18 @@ public class Projectile : MonoBehaviour {
 	void Update () {
         transform.Translate(Vector3.right * speed * Time.deltaTime);
 	}
+
+    /*
+    If we hit something, damage it and destroy self if it is an attacker.
+    We're assuming projectiles are only fired by Defenders with this.
+    */
+    void OnTriggerEnter2D(Collider2D collider) {
+        GameObject gameObject = collider.gameObject;
+        Debug.Log("Projectile hit");
+        if (gameObject.GetComponent<Attacker>() != null) {
+            Health health = gameObject.GetComponent<Health>();
+            health.takeDamageToHealth(damage);
+            Destroy(this.gameObject);
+        }
+    }
 }

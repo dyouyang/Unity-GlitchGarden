@@ -156,7 +156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gun: {fileID: 186942}
   axe: {fileID: 160250, guid: 320aa75d8d44871488fe2f6a3ae502a1, type: 2}
-  projectilesParent: {fileID: 0}
+  projectilesParent: {fileID: 132692, guid: df47a9f33e540ad44a030b37933bdf92, type: 2}
 --- !u!212 &21227960
 SpriteRenderer:
   m_ObjectHideFlags: 1
