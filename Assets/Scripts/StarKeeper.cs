@@ -5,13 +5,15 @@ using System.Collections;
 [RequireComponent (typeof(Text))]
 public class StarKeeper : MonoBehaviour {
 
+    public enum Status {SUCCESS, FAILURE};
+
     private int numStars;
 
     private Text text;
 
 	// Use this for initialization
 	void Start () {
-        numStars = 0;
+        numStars = 100;
         text = GetComponent<Text>();
         UpdateDisplay();
 	}
@@ -26,9 +28,13 @@ public class StarKeeper : MonoBehaviour {
         UpdateDisplay();
     }
 
-    public void UseStars(int numStarsToUse) {
-        numStars -= numStarsToUse;
-        UpdateDisplay();
+    public Status UseStars(int numStarsToUse) {
+        if (numStarsToUse <= numStars) {
+            numStars -= numStarsToUse;
+            UpdateDisplay();
+            return Status.SUCCESS;
+        }
+        return Status.FAILURE;
     }
 
     private void UpdateDisplay() {
