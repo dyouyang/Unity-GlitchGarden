@@ -38,6 +38,7 @@ public class Spawner : MonoBehaviour {
 
     void Spawn(GameObject attackerType) {
         GameObject attacker = Instantiate(attackerType, this.transform.position, Quaternion.identity) as GameObject;
+        attacker.layer = LayerMask.NameToLayer("Attacker");
         attacker.transform.parent = this.transform;
     }
 }
