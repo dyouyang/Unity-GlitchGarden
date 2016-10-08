@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using UnityEngine.UI;
 
 public class Button : MonoBehaviour {
 
@@ -11,6 +12,8 @@ public class Button : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+
+        SetupCost();
     }
 
     // Update is called once per frame
@@ -30,5 +33,13 @@ public class Button : MonoBehaviour {
         } else {
             spriteRenderer.color = Color.black;
         }
+    }
+
+    /*
+    Update child text display with the defender prefab's star cost.
+    */
+    void SetupCost() {
+        int cost = defenderObject.GetComponent<Defender>().starCost;
+        GetComponentInChildren<Text>().text = cost.ToString();
     }
 }
