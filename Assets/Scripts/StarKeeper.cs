@@ -13,7 +13,7 @@ public class StarKeeper : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        numStars = 100;
+        numStars = 1000;
         text = GetComponent<Text>();
         UpdateDisplay();
 	}

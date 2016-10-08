@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 0.4
-  seenEverySeconds: 5
+  seenEverySeconds: 10
 --- !u!114 &11494688
 MonoBehaviour:
   m_ObjectHideFlags: 1
